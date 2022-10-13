@@ -1,8 +1,8 @@
 ch='y'
 while ch=='y' or ch=='Y':
-    a=int(input("Enter first no."))
-    b=int(input("Enter second no."))
-    op=int(input("1.Multiply\n2.divide\n3.add\n4.substract\nEnter the option you want:"))
+    a=int(input("Enter first number"))
+    b=int(input("Enter second number"))
+    op=int(input("1.Multiply\n2.Divide\n3.Add\n4.Substract\nEnter the option you want:"))
     if op==1:
         c=a*b
         print(c)
@@ -16,6 +16,6 @@ while ch=='y' or ch=='Y':
         c=a-b
         print(c)
     else:
-        print("wrong input")
-    ch=input("do you want more y/n:")
-print("thanks")
+        print("Wrong input")
+    ch=input("Do you want more y/n:")
+print("Thanks for testing!")
